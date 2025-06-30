@@ -2,11 +2,11 @@ name: Daily YouTube Video Uploader
 
 on:
   schedule:
-    # Schedule: Har din 5:00 PM IST par (jo ki 11:30 AM UTC hota hai)
+    # Schedule: Har 3 din mein ek baar 5:00 PM IST par (jo ki 11:30 AM UTC hota hai)
     # Cron format: minute hour day_of_month month day_of_week
-    # 30 11 * * * means 11:30 UTC.
+    # 30 11 */3 * * means 11:30 UTC, every 3rd day of the month.
     # Note: IST is UTC+5:30. So 11:30 UTC is 5:00 PM IST.
-    - cron: '30 11 * * *' 
+    - cron: '30 11 */3 * *' 
   
   workflow_dispatch: # Ye aapko GitHub UI se manually workflow run karne ki permission deta hai
 
