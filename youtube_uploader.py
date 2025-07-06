@@ -112,7 +112,7 @@ def upload_video_to_youtube(youtube_service, video_file_path, title, description
             "categoryId": "17" # Sports category ID
         },
         "status": {
-            "privacyStatus": "unlisted" # public, private, ya unlisted
+            "privacyStatus": "public" # public, private, ya unlisted
         }
     }
 
