@@ -6,7 +6,7 @@ on:
     # Cron format: minute hour day_of_month month day_of_week
     # 30 11 */3 * * means 11:30 UTC, every 3rd day of the month.
     # Note: IST is UTC+5:30. So 11:30 UTC is 5:00 PM IST.
-    - cron: '30 11 */3 * *' 
+    - cron: '30 4 * * *' # Har din subah 10:00 AM IST par chalega
   
   workflow_dispatch: # Ye aapko GitHub UI se manually workflow run karne ki permission deta hai
 
